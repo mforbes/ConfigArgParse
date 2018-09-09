@@ -298,7 +298,7 @@ class ArgumentParser(argparse.ArgumentParser):
                 environment variable)
             default_config_files: When specified, this list of config files will
                 be parsed in order, with the values from each config file
-                taking precedence over pervious ones. This allows an application
+                taking precedence over previous ones. This allows an application
                 to look for config files in multiple standard locations such as
                 the install directory, home directory, and current directory.
                 Also, shell * syntax can be used to specify all conf files in a
